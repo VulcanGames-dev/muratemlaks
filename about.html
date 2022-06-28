@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Murat Emlak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo"><img src="images/muratemlaklogo.png" alt=""></a>
+    <nav class="navbar" id="navbar">
+        <a href="index.html" class="">Ana Sayfa</a>
+        <a href="ilanlar.html" class="">İlanlar</a>
+        <a href="about.html" class="active">Hakkımızda</a>
+        <a href="contact.html" class="">İletişim</a>
+    </nav>
+    <div class="buttons">
+
+        <button id="btnsearch">
+            <i class="fas fa-search"></i>
+        </button>
+        <button id="menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+
+    <div class="search-form">
+        <input type="text" class="search-input" id="search-box" placeholder="Ara">
+        <i  class="fas fa-search"></i>
+    </div>
+    </header>
+
+<!--about us  start-->
+<section class="about"  id="about">
+    <h1 class="heading">Biz <span> Kimiz?</span> </h1>
+    <div class="row">
+        <div class="image"><img src="images/bizkimiz.png" alt=""></div>
+        <div class="content">
+            <h3>Hakkımızda</h3>
+            <p>MURAT EMLAK GAYRİMENKUL DANIŞMANLIK FİRMASI MARDİNİN EN GÜNCEL İLANLARIYLA SİZLERE HİZMET VERMEKTEDİR.FİRMAMIZ MARDİNDEKİ SATILIK KİRALIK DAİRE ARSA VE DÜKKAN PORTFÖYLERİ İLE PAZAR GÜNLERİ DAHİL SİZLERE HİZMET VERMEKTEDİR.</p>
+            <a href="#" class="btn">Daha fazlası için</a>
+        </div>
+    </div>
+</section>
+
+<!--about us finish-->
+
+
+
+<!--Footer start-->
+
+<section class="footer">
+    <div class="search">
+        <input type="text" class="search-input" placeholder="Ara">
+        <button class="btn btn-primary">Ara</button>
+    </div>
+    <div class="share">
+        <a href="https://www.instagram.com/muratemlakmardin/?hl=en" class="btn"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://muratemlakmardin.sahibinden.com" class="btn"><i class="fa-solid fa-house"></i></a>
+        <a href="#" class="btn"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://wa.me/905559998877"  class="btn" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-whatsapp"></i>
+         </a>
+    </div>
+    <div class="links">
+        <a href="index.html" class="">Ana Sayfa</a>
+        <a href="ilanlar.html" class="">İlanlar</a>
+        <a href="about.html" class="active">Hakkımızda</a>
+        <a href="contact.html" class="">İletişim</a>
+        <a href="https://wa.me/905559998877" target="_blank" rel="noopener noreferrer">
+            WhatsApp
+         </a>
+    </div>
+    <div class="credit">
+        Created by <span><a href="https://play.google.com/store/apps/dev?id=6645060516177673547&gl=TR" >BTN Games</a></span>|<a href="https://www.instagram.com/muratemlakmardin/?hl=en">Murat Emlak</a>|<span>All Rights Reserved  2022</span>
+    </div>
+</section>
+
+<!--foter finish-->
+
+<!--js start-->
+
+<script src="js/script.js"></script>
+</body>
+
+<!-- <script>
+    var btnContainer = document.getElementById("navbar");
+    var btns =btnContainer.getElementsByClassName("btnactive");
+
+    for(var i=0; i<btns.length; i++){
+        btns[i].addEventListener('click',function(){
+            var current = document.getElementsByClassName(active);
+            current[0].className = current[0].className.replace(" active");
+            this.className += "active";
+        })
+    }
+
+</script> -->
+</html>
